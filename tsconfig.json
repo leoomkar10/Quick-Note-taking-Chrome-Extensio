@@ -1,0 +1,23 @@
+// {
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*"]
+}
+

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Note Taker",
+    "version": "1.0",
+    "description": "Save and organize text snippets from any webpage",
+    "permissions": [
+      "storage",
+      "contextMenus",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js",
+      "type":"module"
+    }
+  }
+
